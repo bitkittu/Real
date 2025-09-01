@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $price   = isset($_POST['price']) ? htmlspecialchars($_POST['price']) : '';
     $currentUrl = isset($_POST['currentUrl']) ? htmlspecialchars($_POST['currentUrl']) : '';
 
-    $to = "okchanakya@gmail.com";
+    $to = "bitkittu@gmail.com";
     $subject = "New Form Submission from $form_name";
     $message = "Name: $name\n";
     $message .= "Mobile: $mobile\n";
